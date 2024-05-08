@@ -456,12 +456,15 @@
 "Assets/Low Poly Guns/Scripts/GunsMenu.cs"
 "Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/Scripts/AudioManager.cs"
+"Assets/Scripts/BulletControll.cs"
 "Assets/Scripts/CanvasController.cs"
+"Assets/Scripts/CanvasMethodManager.cs"
 "Assets/Scripts/Card.cs"
 "Assets/Scripts/CardTextGenerator.cs"
 "Assets/Scripts/DictionaryManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/SCManager.cs"
+"Assets/Scripts/SettingsController.cs"
 "Assets/Scripts/TimeManager.cs"
 -langversion:9.0
 

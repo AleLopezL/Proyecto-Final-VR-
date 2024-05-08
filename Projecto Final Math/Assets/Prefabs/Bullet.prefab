@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1048793936249024646}
   - component: {fileID: 2747918705818201268}
   - component: {fileID: 361925579457307011}
+  - component: {fileID: -4054446770388045741}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -60,6 +61,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -133,3 +136,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4054446770388045741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5455673934500468862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3ab6839c36e1a49912d8418e8b1a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
