@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Console
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 122
+  controlID: 127
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 21
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 121
+  controlID: 126
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,8 +197,8 @@ MonoBehaviour:
     y: 0
     width: 566
     height: 583
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 97
+  controlID: 94
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,7 +397,7 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
     - Assets
     m_Globs: []
@@ -417,9 +417,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f87a0000
-    m_LastClickedID: 31480
-    m_ExpandedIDs: 00000000f87a0000ffffff7f
+    m_SelectedIDs: d6930000
+    m_LastClickedID: 37846
+    m_ExpandedIDs: 00000000d6930000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +448,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000d6930000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,7 +596,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 20e2ffff
+      m_ExpandedIDs: 50e0ffffecfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 5.0951366, y: -0.36136127, z: -0.3411751}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: 0.08619971, y: -0.30705816, z: -0.027070606, w: -0.9473996}
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
     m_Target: 10
     speed: 2
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1920, y: 1080}
+  m_TargetSize: {x: 843, y: 332}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1324,10 +1324,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
+    m_HBaseRangeMin: -421.5
+    m_HBaseRangeMax: 421.5
+    m_VBaseRangeMin: -166
+    m_VBaseRangeMax: 166
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1347,7 +1347,7 @@ MonoBehaviour:
       y: 21
       width: 843
       height: 332
-    m_Scale: {x: 0.3074074, y: 0.3074074}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 421.5, y: 166}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1355,12 +1355,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1371.1445
-      y: -540
-      width: 2742.289
-      height: 1080
+      x: -421.5
+      y: -166
+      width: 843
+      height: 332
     m_MinimalGUI: 1
-  m_defaultScale: 0.3074074
+  m_defaultScale: 1
   m_LastWindowPixelSize: {x: 843, y: 353}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1

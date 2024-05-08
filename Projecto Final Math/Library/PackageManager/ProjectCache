@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638507887186962416
-    m_Hash: 347211050
+      ticks: 638507891084964547
+    m_Hash: 2307784391
   m_LockFileStatus:
     m_FilePath: C:/Users/Alumno tarde/Documents/Proyecto Final VR/Proyecto-Final-VR-/Projecto
       Final Math/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638507887539938579
-    m_Hash: 2203155602
+      ticks: 638507891084995250
+    m_Hash: 2151803933
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -25,6 +25,144 @@ m_ProjectPath: C:/Users/Alumno tarde/Documents/Proyecto Final VR/Proyecto-Final-
   Final Math/Packages
 m_EditorVersion: 2023.2.19f1 (95c298372b1e)
 m_ResolvedPackages:
+- packageId: com.meta.xr.sdk.all@64.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.all@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.all
+  name: com.meta.xr.sdk.all
+  displayName: Meta XR All-in-One SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR All-in-One SDK is a wrapper package that depends on the latest
+    version of all Meta XR SDKs, making it easy to get started with VR development.
+  errors: []
+  versions:
+    all:
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.mrutilitykit
+    version: 64.0.0
+  - name: com.meta.xr.sdk.audio
+    version: 64.0.0
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.sdk.haptics
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction.ovr
+    version: 64.0.0
+  - name: com.meta.xr.sdk.platform
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice.composer
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice.dictation
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice.telemetry
+    version: 64.0.0
+  - name: com.meta.xr.simulator
+    version: 64.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.mrutilitykit
+    version: 64.0.0
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 64.0.0
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.meta.xr.sdk.interaction.ovr
+    version: 64.0.0
+  - name: com.unity.ai.navigation
+    version: 2.0.0
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.meta.xr.sdk.audio
+    version: 64.0.0
+  - name: com.meta.xr.sdk.haptics
+    version: 64.0.0
+  - name: com.meta.xr.sdk.platform
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice.composer
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice.dictation
+    version: 64.0.0
+  - name: com.meta.xr.sdk.voice.telemetry
+    version: 64.0.0
+  - name: com.meta.xr.simulator
+    version: 64.0.0
+  keywords:
+  - Quest
+  - Oculus
+  - Meta
+  - SDK
+  - XR
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489128590000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 269657
 - packageId: com.unity.collab-proxy@2.3.1
   testable: 0
   isDirectDependency: 1
@@ -659,6 +797,178 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.xr.oculus@4.2.0
+  testable: 0
+  isDirectDependency: 1
+  version: 4.2.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.unity.xr.oculus@4.2.0
+  assetPath: Packages/com.unity.xr.oculus
+  name: com.unity.xr.oculus
+  displayName: Oculus XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Provides display and input support for Oculus devices.
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview
+    - 0.1.2-preview.1
+    - 0.8.4-preview
+    - 1.0.0-preview.4
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3-preview.1
+    - 1.1.0-preview
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2
+    - 1.1.3-preview
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4-preview.1
+    - 1.1.4
+    - 1.1.5-preview
+    - 1.1.5
+    - 1.2.0-preview.1
+    - 1.2.0
+    - 1.3.1
+    - 1.3.3
+    - 1.3.4
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0
+    - 1.4.3
+    - 1.5.0
+    - 1.5.1
+    - 1.6.0-preview.1
+    - 1.6.0-preview.2
+    - 1.6.1
+    - 1.7.0-preview.1
+    - 1.7.0-preview.2
+    - 1.7.0
+    - 1.8.1
+    - 1.9.0-preview.1
+    - 1.9.0
+    - 1.9.1
+    - 1.10.0-preview.1
+    - 1.10.0-preview.2
+    - 1.10.0
+    - 1.10.1-preview.3
+    - 1.11.0
+    - 1.11.2
+    - 1.12.0
+    - 1.12.1
+    - 1.13.0
+    - 1.13.1-preview.1
+    - 1.13.1-preview.2
+    - 1.13.1
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.2-preview.1
+    - 2.2.0-preview.1
+    - 2.2.3-preview.1
+    - 2.2.3-preview.2
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0-pre.4
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.1.1
+    - 3.2.1
+    - 3.2.2-pre.1
+    - 3.2.2
+    - 3.2.3-pre.1
+    - 3.2.3
+    - 3.3.0
+    - 3.4.0
+    - 4.0.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.0-exp-env-depth.1
+    - 4.2.0-exp-env-depth.2
+    - 4.2.0
+    compatible:
+    - 4.2.0
+    recommended: 4.2.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.4.0
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  keywords:
+  - oculus
+  - xr
+  - vr
+  - virtual
+  - rift
+  - quest
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638430747650000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
+    revision: a87e6a4842f6c06d6b8a576c83caec99c5fc3e60
+    path: 
+  unityLifecycle:
+    version: 4.2.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Environment Depth APIs to allow for real
+    world depth to be sampled from a depth texture\n\n### Changed\n- Updated `GetConnectedControllers`
+    to match the Oculus Integration Package''s implementation\n- Removed PhaseSync
+    setting since it is now always active\n- Updated Oculus plugins to v60\n\n###
+    Fixed\n- Fixed issues with play in editor on ARM64 Windows devices\n\n### Known
+    Issues\n- `Unity.XR.Oculus.Stats.PerfMetrics` entries currently return `0` when
+    using the OpenXR runtime\n- `Unity.XR.Oculus.Stats.AppMetrics` entries return
+    `0` on all Oculus runtimes\n- For both of the above, the suggested replacement
+    is to use the profiling tools available via the Oculus Developer Hub: https://developer.oculus.com/documentation/unity/ts-odh-logs-metrics/"}'
   assetStore:
     productId: 
 - packageId: com.unity.modules.accessibility@1.0.0
@@ -2947,6 +3257,153 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
+- packageId: com.unity.xr.management@4.4.0
+  testable: 0
+  isDirectDependency: 0
+  version: 4.4.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.unity.xr.management@4.4.0
+  assetPath: Packages/com.unity.xr.management
+  name: com.unity.xr.management
+  displayName: XR Plugin Management
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Package that provides simple management of XR plug-ins. Manages and
+    offers help with loading, initialization, settings, and build support for XR
+    plug-ins.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.8
+    - 0.1.0-preview.12
+    - 1.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.6
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.13
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    - 2.0.0-preview.26
+    - 3.0.1
+    - 3.0.2-preview.1
+    - 3.0.2-preview.2
+    - 3.0.3
+    - 3.0.4-preview.1
+    - 3.0.4-preview.3
+    - 3.0.4
+    - 3.0.5-preview.1
+    - 3.0.5
+    - 3.0.6-preview.2
+    - 3.0.6
+    - 3.1.0-preview.2
+    - 3.2.4
+    - 3.2.6
+    - 3.2.7
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11-preview.1
+    - 3.2.12
+    - 3.2.13
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0-exp.2
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 4.3.1
+    - 4.3.3
+    - 4.4.0
+    - 4.4.1
+    compatible:
+    - 4.4.0
+    - 4.4.1
+    recommended: 4.4.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.7
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  keywords:
+  - xr
+  - sdk
+  - ar
+  - vr
+  - management
+  - build
+  - plugin
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638224209960000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+    revision: 6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8
+    path: 
+  unityLifecycle:
+    version: 4.4.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Created `AndroidManifestProcessor` as
+    an Android manifest management system for XR packages and providers that target
+    platforms based on Android.\n\n### Removed\n- AndroidManifest.xml is no longer
+    deleted after each Android build."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
@@ -3571,6 +4028,1128 @@ m_ResolvedPackages:
     it is written after a domain reload (case [COV-36](https://issuetracker.unity3d.com/issues/coverage-results-xml-file-is-not-categorized-as-editmode-if-it-is-written-after-domain-reload))."}'
   assetStore:
     productId: 
+- packageId: com.meta.xr.mrutilitykit@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.mrutilitykit@64.0.0
+  assetPath: Packages/com.meta.xr.mrutilitykit
+  name: com.meta.xr.mrutilitykit
+  displayName: Meta MR Utility Kit
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Helper tools & functions to simplify development with Scene API. Works
+    on Mac & PC, without a device attached.
+  errors: []
+  versions:
+    all:
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction.ovr
+    version: 64.0.0
+  - name: com.unity.ai.navigation
+    version: 1.1.4
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 64.0.0
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.meta.xr.sdk.interaction.ovr
+    version: 64.0.0
+  - name: com.unity.ai.navigation
+    version: 2.0.0
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords:
+  - Meta
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489097890000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 272450
+- packageId: com.meta.xr.sdk.audio@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.audio@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.audio
+  name: com.meta.xr.sdk.audio
+  displayName: Meta XR Audio SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Comprehensive spatial audio features for immersive applications, including
+    a spatial audio renderer with HRTF, ambisonic audio playback, and room acoustics
+    for creating immersive environments.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Oculus
+  - Quest
+  - Audio
+  - XR
+  - Meta
+  - SDK
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489097500000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 264557
+- packageId: com.meta.xr.sdk.core@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.core@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.core
+  name: com.meta.xr.sdk.core
+  displayName: Meta XR Core SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR Core SDK package provides the latest features to create immersive
+    experiences for Meta XR devices.
+  errors: []
+  versions:
+    all:
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - SDK
+  - XR
+  - Oculus
+  - Meta
+  - Quest
+  - Utilities
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638488975510000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 269169
+- packageId: com.meta.xr.sdk.haptics@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.haptics@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.haptics
+  name: com.meta.xr.sdk.haptics
+  displayName: Meta XR Haptics SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: SDK for playback of haptics created in Meta Haptics Studio on Quest
+    devices
+  errors: []
+  versions:
+    all:
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  keywords:
+  - SDK
+  - Quest
+  - XR
+  - Meta
+  - Oculus
+  - Haptics
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489099650000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 272446
+- packageId: com.meta.xr.sdk.interaction@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.interaction@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.interaction
+  name: com.meta.xr.sdk.interaction
+  displayName: Meta XR Interaction SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Provides the core implementations of all the provided interaction
+    models along with necessary shaders, materials, and prefabs.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - Oculus
+  - Interaction
+  - SDK
+  - Quest
+  - Meta
+  - XR
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638488996600000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 264559
+- packageId: com.meta.xr.sdk.interaction.ovr@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.interaction.ovr
+  name: com.meta.xr.sdk.interaction.ovr
+  displayName: Meta XR Interaction SDK OVR Integration
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: This package allows Interaction SDK to interface with OVRPlugin. Use
+    this package if you are using OVRPlugin or the Core SDK package.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 64.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.sdk.interaction
+    version: 64.0.0
+  - name: com.unity.textmeshpro
+    version: 5.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - Meta
+  - Oculus
+  - OVR
+  - SDK
+  - Quest
+  - Interaction
+  - XR
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489083530000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/unity-isdk-interaction-sdk-overview/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 265014
+- packageId: com.meta.xr.sdk.platform@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.platform@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.platform
+  name: com.meta.xr.sdk.platform
+  displayName: Meta XR Platform SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Use the Platform SDK to create social VR applications. Add Matchmaking,
+    DLC, In-App Purchases, Cloud Storage, and more to your experience using the individual
+    components of the SDK.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - Quest
+  - Oculus
+  - Platform
+  - Meta
+  - XR
+  - SDK
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489120350000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 262366
+- packageId: com.meta.xr.sdk.voice@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.voice@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice
+  name: com.meta.xr.sdk.voice
+  displayName: Meta - Voice SDK - Immersive Voice Commands
+  author:
+    name: Meta - Voice SDK
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: Voice SDK enables natural voice interactions for AR/VR apps, powered
+    by Wit.ai.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - SDK
+  - Voice
+  - Meta
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489105890000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 264555
+- packageId: com.meta.xr.sdk.voice.composer@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.voice.composer@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice.composer
+  name: com.meta.xr.sdk.voice.composer
+  displayName: Meta - Voice SDK - Composer
+  author:
+    name: Meta - Voice SDK
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: This package provides support for Composer, a feature in Wit.ai for
+    visually designing interactive conversations in a graph-based dialogue designer.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 64.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 64.0.0
+  keywords:
+  - Voice
+  - SDK
+  - Meta
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489107670000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 265012
+- packageId: com.meta.xr.sdk.voice.dictation@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.voice.dictation@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice.dictation
+  name: com.meta.xr.sdk.voice.dictation
+  displayName: Meta - Voice SDK - Dictation
+  author:
+    name: Meta - Voice SDK
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: The Dictation addon for Voice SDK dictation  enables your app to efficiently
+    transcribe speech to text in real time with better recognition results using
+    immersive voice commands.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 64.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.voice
+    version: 64.0.0
+  keywords:
+  - Meta
+  - SDK
+  - Voice
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489107490000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 265013
+- packageId: com.meta.xr.sdk.voice.telemetry@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.sdk.voice.telemetry@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.voice.telemetry
+  name: com.meta.xr.sdk.voice.telemetry
+  displayName: Meta - Voice SDK - Telemetry
+  author:
+    name: Meta - Voice SDK
+    email: 
+    url: https://wit.ai
+  category: 
+  type: 
+  description: The telemetry package provides insights into the operation of the
+    VoiceSDK and its related packages so that we can improve the experience for everyone.
+  errors: []
+  versions:
+    all:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 56.0.0-preview
+    - 57.0.0-preview
+    - 59.0.0
+    - 60.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Meta
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489104630000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 264148
+- packageId: com.meta.xr.simulator@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.meta.xr.simulator@64.0.0
+  assetPath: Packages/com.meta.xr.simulator
+  name: com.meta.xr.simulator
+  displayName: Meta XR Simulator
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR Simulator allows developers to preview their VR changes without
+    needing a physical device.
+  errors: []
+  versions:
+    all:
+    - 57.0.0
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    compatible:
+    - 57.0.0
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Oculus
+  - XrSim
+  - Meta
+  - Quest
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 2
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489102970000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 266732
+- packageId: com.unity.xr.legacyinputhelpers@2.1.10
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.10
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: asset
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    compatible:
+    - 2.1.10
+    recommended: 2.1.10
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637958908030000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
+    path: 
+  unityLifecycle:
+    version: 2.1.10
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Fixed a build error about a mismatch of the serialized
+    fields between Editor and Player due to `m_PoseProviderComponent`. That field
+    and its type is now always included, not just when `ENABLE_AR` or `ENABLE_VR`
+    are defined."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
@@ -3714,5 +5293,339 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: '{"changelog":"- Fixing bug for InstanceID as struct changes"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.textmeshpro@5.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 5.0.0
+  source: 2
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.unity.textmeshpro@5.0.0
+  assetPath: Packages/com.unity.textmeshpro
+  name: com.unity.textmeshpro
+  displayName: TextMeshPro
+  author:
+    name: 
+    email: 
+    url: 
+  category: Text Rendering
+  type: shim
+  description: This package is no longer supported. TextMeshPro functionalities are
+    now included in the com.unity.ugui package. To continue using them, consider
+    adding it to your project dependencies.
+  errors: []
+  versions:
+    all:
+    - 0.1.2
+    - 1.0.21
+    - 1.0.23
+    - 1.0.25
+    - 1.0.26
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-preview
+    - 1.3.0
+    - 1.4.0-preview.1b
+    - 1.4.0-preview.2a
+    - 1.4.0-preview.3a
+    - 1.4.0
+    - 1.4.1-preview.1
+    - 1.4.1
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 1.5.0-preview.8
+    - 1.5.0-preview.10
+    - 1.5.0-preview.11
+    - 1.5.0-preview.12
+    - 1.5.0-preview.13
+    - 1.5.0-preview.14
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.6.0-preview.1
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.1
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.1.0-preview.8
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 2.1.0-preview.12
+    - 2.1.0-preview.13
+    - 2.1.0-preview.14
+    - 2.1.0
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 3.0.0-preview.1
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.5
+    - 3.0.0-preview.7
+    - 3.0.0-preview.8
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 3.0.0-preview.13
+    - 3.0.0-preview.14
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.8
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 3.2.0-pre.7
+    - 3.2.0-pre.8
+    - 3.2.0-pre.9
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 5.0.0
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 1
+    deprecationMessage: This package is no longer supported. TextMeshPro functionalities
+      are now included in the com.unity.ugui package. To continue using them, consider
+      adding it to your project dependencies.
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.ai.navigation@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.unity.ai.navigation@2.0.0
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0
+    compatible:
+    - 2.0.0
+    recommended: 2.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638333060450000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 365db7071a1efdbf9fc337dd1c0de02f909cd685
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* When the \"Auto Update Position\" option
+    of NavMeshLink is enabled, the link now correctly updates the connection in the
+    next frame after any of the link''s ends change their world position."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.1
+  source: 1
+  resolvedPath: C:\Users\Alumno tarde\Documents\Proyecto Final VR\Proyecto-Final-VR-\Projecto
+    Final Math\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
+    compatible:
+    - 3.2.1
+    recommended: 3.2.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638186318800000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    path: 
+  unityLifecycle:
+    version: 3.2.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"* Fixed Newtonsoft DLL when compiling with netstandard
+    2.0."}'
   assetStore:
     productId: 
