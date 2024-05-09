@@ -455,6 +455,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Low Poly Guns/Scripts/GunsMenu.cs"
 "Assets/Low Poly Guns/Scripts/GunView.cs"
+"Assets/Resources/Models/Gun/GunAnimController.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/BulletControll.cs"
 "Assets/Scripts/CanvasController.cs"
@@ -463,8 +464,10 @@
 "Assets/Scripts/CardTextGenerator.cs"
 "Assets/Scripts/DictionaryManager.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/ObjectPool.cs"
 "Assets/Scripts/SCManager.cs"
 "Assets/Scripts/SettingsController.cs"
+"Assets/Scripts/ShootManager.cs"
 "Assets/Scripts/TimeManager.cs"
 -langversion:9.0
 

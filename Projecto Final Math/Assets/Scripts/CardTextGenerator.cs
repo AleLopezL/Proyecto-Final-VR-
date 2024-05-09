@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-public class CardTextGenerator : MonoBehaviour 
+public class CardTextGenerator : MonoBehaviour
 {
 
     public static CardTextGenerator instance;
@@ -37,19 +37,26 @@ public class CardTextGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-  
+
     public void WriteOnCall(string text)
     {
-        BroadcastMessage("Active");
-
-
+        Debug.Log("WriteOncall");
         textToWrite = text.Split("=")[0];
         int result = int.Parse(text.Split('=')[1]);
         WriteText(result);
         StartCoroutine("TypeText");
 
+    }
+
+    public void WriteOnCallEcuation(string text)
+    {
+        Debug.Log("WriteOncallEcuation");
+        textToWrite = text.Split("(")[0];
+        int result = int.Parse(text.Split('(')[1]);
+        WriteText(result);
+        StartCoroutine("TypeText");
     }
 
     IEnumerator TypeText()
@@ -64,8 +71,7 @@ public class CardTextGenerator : MonoBehaviour
     }
     public void WriteText(int text)
     {
-        BroadcastMessage("Active");
-
+        Debug.Log("WriteTestMethod");
         whoCorrect = Random.Range(0, childs.Count);
 
         for (int i = 0; i < childs.Count; i++) 

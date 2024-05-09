@@ -22,8 +22,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] public bool _IsElected;
     [SerializeField] public bool _IsMixed;
 
-    [Header("--Variables Serializadas--")]
-    [SerializeField] GameObject[] _panels;
     private void Awake()
     {
         // ----------------------------------------------------------------
@@ -38,7 +36,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       // AudioManager.instance.PlayMusic("MainGame");
     }
 
     // Update is called once per frame
@@ -60,6 +58,7 @@ public class GameManager : MonoBehaviour
             _IsStarted = true;
             timeManager.GetComponent<TimeManager>().StartCoroutine("UpdateTotalTimer");
             timeManager.GetComponent<TimeManager>().StartCoroutine("UpdateQuestionTimer");
+            electQuestion();
         }
     }
 
@@ -86,38 +85,56 @@ public class GameManager : MonoBehaviour
     
     public void electQuestion()
     {
+        Debug.Log("electQuestion");
         if (_IsMixed)
         {
             while (!_IsElected)
             {
+
                 switch (Random.Range(0, 5))
                 {
                     case 0:
-                        if (_BoolPool[0]) DictionaryManager.instance.PlaySums(); _IsElected = true;
+                        if (_BoolPool[0])
+                        {
+                            Debug.Log("Sumas");
+                            DictionaryManager.instance.PlaySums();
+                            _IsElected = true;
+                        }
                         break;
                     case 1:
-                        if (_BoolPool[1]) DictionaryManager.instance.PlaySubsttacts(); _IsElected = true;
+                        if (_BoolPool[1])
+                        {
+                            DictionaryManager.instance.PlaySubsttacts();
+                            _IsElected = true;
+                        }
                         break;
                     case 2:
-                        if (_BoolPool[2]) DictionaryManager.instance.PlayMultiplies(); _IsElected = true;
+                        if (_BoolPool[2]) {
+                            DictionaryManager.instance.PlayMultiplies();
+                            _IsElected = true; }
                         break;
                     case 3:
-                        if (_BoolPool[3]) DictionaryManager.instance.PlayDivides(); _IsElected = true;
+                        if (_BoolPool[3]) {
+                            DictionaryManager.instance.PlayDivides(); 
+                            _IsElected = true; }
                         break;
                     case 4:
-                        if (_BoolPool[4]) DictionaryManager.instance.PlayEcuations(); _IsElected = true;
+                    if (_BoolPool[4]) {
+                        DictionaryManager.instance.PlayEcuations(); 
+                        _IsElected = true; }
                         break;
                 }
             }
         }
         else {
+            Debug.Log("electQuestionSimple");
             for (int i = 0; i < _BoolPool.Length; i++)
             {
                 if(_BoolPool[i] == true)
                 {
-                    DictionaryManager.instance.electSectionSimple(i);
-                    break;
-                };
+                    Debug.Log("electQuestionSimpletrue");
+                    GameObject.Find("DictionaryManager").GetComponent< DictionaryManager>().electSectionSimple(i);
+                }
 
             }
             }
@@ -141,20 +158,4 @@ public class GameManager : MonoBehaviour
 
     }
 
-
-    public void PanelActive(int number)
-    {
-
-        PanelsToFalse();
-        _panels[number].SetActive(true);
-
-    }
-
-    public void PanelsToFalse()
-    {
-        foreach (GameObject panel in _panels)
-        {
-            panel.SetActive(false);
-        }
-    }
 }

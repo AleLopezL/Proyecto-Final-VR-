@@ -35,6 +35,7 @@ public class CanvasMethodManager : MonoBehaviour
     public void Screen1Exit()
     {
         AudioManager.instance.PlaySFX("Button");
+        Application.Quit();
     }
     //Screen 1.1
 
@@ -47,7 +48,6 @@ public class CanvasMethodManager : MonoBehaviour
         GameManager.instance.boolController(0);
         AudioManager.instance.PlaySFX("Play");
         SCManager.instance.LoadScene("GameScene");
-        GameManager.instance.electQuestion();
     }
     public void Substracts()
     {
@@ -121,7 +121,7 @@ public class CanvasMethodManager : MonoBehaviour
     {
         AudioManager.instance.PlaySFX("Play");
         GameManager.instance._IsMixed = true;
-        SCManager.instance.LoadScene("MainGame");
+        SCManager.instance.LoadScene("GameScene");
         GameManager.instance.electQuestion();
     }
 }

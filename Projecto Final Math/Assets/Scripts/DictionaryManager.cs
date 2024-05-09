@@ -5,6 +5,7 @@ using UnityEngine;
 public class DictionaryManager : MonoBehaviour
 {
     public static DictionaryManager instance;
+
     [Header("Dictionaries")]
     [SerializeField] public Dictionary<int, string> D_simpleSums = new Dictionary<int,string>();
     [SerializeField] public Dictionary<int, string> D_simpleSubstracs = new Dictionary<int, string>();
@@ -35,7 +36,6 @@ public class DictionaryManager : MonoBehaviour
     void Start()
     {
      
-        D_simpleSums = new Dictionary<int, string>();
         D_simpleSums.Clear();
         D_simpleSubstracs.Clear();
         D_simpledivides.Clear();
@@ -43,40 +43,28 @@ public class DictionaryManager : MonoBehaviour
         D_simpleEcuations.Clear();
 
         _SumArray = _SumText.Split(";");
-        _SubsArray = _SubsText.Split(":");
-        _DivArray = _DivText.Split(":");
-        _MulArray = _MulText.Split(":");
-        _EcuArray = _SumText.Split(":");
+        _SubsArray = _SubsText.Split(";");
+        _DivArray = _DivText.Split(";");
+        _MulArray = _MulText.Split(";");
+        _EcuArray = _EcuText.Split(";");
 
-        Debug.Log(_SumArray.Length);
-        startDiv();
+        
         startSubstracts();
         startEcuation();
         startMultiply();
         startSums();
-    }
-    private void Awake()
-    {
-        // ----------------------------------------------------------------
-        // AQUÍ ES DONDE SE DEFINE EL COMPORTAMIENTO DE LA CLASE SINGLETON
-        // Garantizamos que solo exista una instancia del AudioManager
-        // Si no hay instancias previas se asigna la actual
-        // Si hay instancias se destruye la nueva
-        if (instance == null) instance = this;
-        else { Destroy(gameObject); return; }
+        startDiv();
+        StartCoroutine("startGame");
     }
     // Update is called once per frame
     void Update()
     {
 ;
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            CardTextGenerator.instance.WriteOnCall(D_simpleSums[Random.Range(0, D_simpleSums.Count)]);
-        }
     }
 
     public void electSectionSimple(int section)
     {
+        Debug.Log("PruebaA");
         switch (section)
         {
             case 0: PlaySums();
@@ -116,7 +104,7 @@ public class DictionaryManager : MonoBehaviour
     public void PlayEcuations()
     {
         Debug.Log("prueba2");
-        CardTextGenerator.instance.WriteOnCall(D_simpleEcuations[Random.Range(0, D_simpleEcuations.Count)]);
+        CardTextGenerator.instance.WriteOnCallEcuation(D_simpleEcuations[Random.Range(0, D_simpleEcuations.Count)]);
     }
     void startSums()
     {
@@ -129,45 +117,43 @@ public class DictionaryManager : MonoBehaviour
     }
     void startSubstracts()
     {
-        foreach (string s in _SubsArray)
+        for (int y = 0; y < _SubsArray.Length; y++)
         {
-            int i = 0;
-            string r = i.ToString();
-            D_simpleSubstracs.Add(i, s);
-            i++;
+            Debug.Log(y);
+            D_simpleSubstracs.Add(y, _SubsArray[y]);
         }
     }
 
     void startDiv()
     {
-        foreach (string s in _DivArray)
+        for (int y = 0; y < _DivArray.Length; y++)
         {
-            int i = 0;
-            string r = i.ToString();
-            D_simpledivides.Add(i, s);
-            i++;
+            Debug.Log(y);
+            D_simpledivides.Add(y, _DivArray[y]);
         }
     }
 
     void startMultiply()
     {
-        foreach (string s in _MulArray)
+        for (int y = 0; y < _MulArray.Length; y++)
         {
-            int i = 0;
-
-            D_simplemultiplies.Add(i, s);
-            i++;
+            Debug.Log(y);
+            D_simplemultiplies.Add(y, _MulArray[y]);
         }
     }
     void startEcuation()
     {
-        foreach (string s in _EcuArray)
+        for (int y = 0; y < _EcuArray.Length; y++)
         {
-            int i = 0;
-            string r = i.ToString();
-            D_simpleEcuations.Add(i, s);
-            i++;
+            Debug.Log(y);
+            D_simpleEcuations.Add(y, _EcuArray[y]);
         }
     }
 
+    IEnumerator startGame()
+    {
+        yield return new WaitForSeconds(2);
+        GameManager.instance.startGame();
+        StopCoroutine("startGame");
+    }
 }

@@ -19,14 +19,18 @@ public class SettingsController : MonoBehaviour
     }
 
     void Start()
+
     { // Método Start que cargará la configuración existente
-      // Recupera la configuración del volumen (si existe) o utiliza un valor predeterminado
+      audioSource =  AudioManager.instance.musicSource.GetComponent<AudioSource>();
+        
+        // Recupera la configuración del volumen (si existe) o utiliza un valor predeterminado
         float savedVolume = PlayerPrefs.GetFloat("BackgroundMusicVolume", 0.5f);
         // Recupera la configuración del mute (si existe) o utiliza un valor predeterminado
         // En PlayerPrefs no se pueden guardar Booleans, por eso se usa Integer (0-1)
         int savedMute = PlayerPrefs.GetInt("BackgroundMusicMute", 0);
         LoadVolume(savedVolume); // Configuramos el volumen cargado
         LoadMute(savedMute); // Configuramos el estado del muteo cargado
+
     }
     void LoadVolume(float volume)
     { // Método para configurar un volumen específico en el Slider
