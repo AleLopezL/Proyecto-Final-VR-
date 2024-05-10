@@ -8,7 +8,7 @@ public class CardTextGenerator : MonoBehaviour
     public static CardTextGenerator instance;
     [Header("Texts")]
     [SerializeField] string textToWrite;
-    [SerializeField] TextMeshProUGUI SpaceToWrite;
+    [SerializeField] TextMeshPro SpaceToWrite;
     [SerializeField] float typingSpeed = 0.1f;
 
 
