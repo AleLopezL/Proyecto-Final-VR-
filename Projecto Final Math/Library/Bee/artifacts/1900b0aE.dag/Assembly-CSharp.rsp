@@ -465,8 +465,10 @@
 "Assets/Scripts/CardTextGenerator.cs"
 "Assets/Scripts/DictionaryManager.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/ObjectPool.cs"
 "Assets/Scripts/SCManager.cs"
 "Assets/Scripts/SettingsController.cs"
+"Assets/Scripts/ShootManager.cs"
 "Assets/Scripts/TimeManager.cs"
 -langversion:9.0
 
