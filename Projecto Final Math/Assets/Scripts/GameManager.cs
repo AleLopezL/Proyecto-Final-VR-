@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] string BoolPoolReferences;
     [SerializeField] public bool _IsElected;
     [SerializeField] public bool _IsMixed;
-
+    [SerializeField] public GameObject _DictionaryManager;
     private void Awake()
     {
         // ----------------------------------------------------------------
@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
             _IsStarted = true;
             timeManager.GetComponent<TimeManager>().StartCoroutine("UpdateTotalTimer");
             timeManager.GetComponent<TimeManager>().StartCoroutine("UpdateQuestionTimer");
+            _DictionaryManager = GameObject.FindWithTag("DictionaryManager");
             electQuestion();
         }
     }
@@ -80,6 +81,10 @@ public class GameManager : MonoBehaviour
     public void endOfGame()
     {
         Time.timeScale = 0f;
+        restartBoolPool();
+        _IsMixed=  false;
+        
+        SCManager.instance.LoadScene("EndGame");
     }
 
     
@@ -97,31 +102,35 @@ public class GameManager : MonoBehaviour
                         if (_BoolPool[0])
                         {
                             Debug.Log("Sumas");
-                            DictionaryManager.instance.PlaySums();
+                            _DictionaryManager.GetComponent<DictionaryManager>().PlaySums();
                             _IsElected = true;
                         }
                         break;
                     case 1:
                         if (_BoolPool[1])
                         {
-                            DictionaryManager.instance.PlaySubsttacts();
-                            _IsElected = true;
+                            _DictionaryManager.GetComponent<DictionaryManager>().PlaySubsttacts();
+                            _IsElected = true;                     
                         }
                         break;
                     case 2:
                         if (_BoolPool[2]) {
-                            DictionaryManager.instance.PlayMultiplies();
-                            _IsElected = true; }
+                            _DictionaryManager.GetComponent<DictionaryManager>().PlayMultiplies();
+                            _IsElected = true;
+
+                                }
                         break;
                     case 3:
                         if (_BoolPool[3]) {
-                            DictionaryManager.instance.PlayDivides(); 
-                            _IsElected = true; }
+                            _DictionaryManager.GetComponent<DictionaryManager>().PlayDivides(); 
+                            _IsElected = true;
+                        }
                         break;
                     case 4:
                     if (_BoolPool[4]) {
-                        DictionaryManager.instance.PlayEcuations(); 
-                        _IsElected = true; }
+                            _DictionaryManager.GetComponent<DictionaryManager>().PlayEcuations(); 
+                        _IsElected = true;
+                        }
                         break;
                 }
             }
@@ -133,7 +142,7 @@ public class GameManager : MonoBehaviour
                 if(_BoolPool[i] == true)
                 {
                     Debug.Log("electQuestionSimpletrue");
-                    GameObject.Find("DictionaryManager").GetComponent< DictionaryManager>().electSectionSimple(i);
+                    _DictionaryManager.GetComponent<DictionaryManager>().electSectionSimple(i);
                 }
 
             }
@@ -157,5 +166,13 @@ public class GameManager : MonoBehaviour
         }
 
     }
+    public void restartBoolPool()
+    {
+        for (int i = 0; i < _BoolPool.Length; i++)
+        {
+            
+                _BoolPool[i] = false;
 
+        }
+    }
 }

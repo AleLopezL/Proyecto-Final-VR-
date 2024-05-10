@@ -61,10 +61,10 @@ public class CardTextGenerator : MonoBehaviour
 
     IEnumerator TypeText()
     {
-        SpaceToWrite.GetComponent<TextMeshProUGUI>().text = "";
+        SpaceToWrite.GetComponent<TextMeshPro>().text = "";
         foreach (char c in textToWrite)
         {
-            SpaceToWrite.GetComponent<TextMeshProUGUI>().text += c;
+            SpaceToWrite.GetComponent<TextMeshPro>().text += c;
             yield return new WaitForSeconds(typingSpeed);
         }
         StopCoroutine("TypeText");

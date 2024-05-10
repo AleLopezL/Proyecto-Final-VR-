@@ -30,12 +30,10 @@ public class DictionaryManager : MonoBehaviour
     [SerializeField] string[] _DivArray;
     [SerializeField] string[] _MulArray;
     [SerializeField] string[] _EcuArray;
-    
 
     // Start is called before the first frame update
     void Start()
     {
-     
         D_simpleSums.Clear();
         D_simpleSubstracs.Clear();
         D_simpledivides.Clear();
@@ -99,7 +97,7 @@ public class DictionaryManager : MonoBehaviour
     public void PlayMultiplies()
     {
         Debug.Log("prueba2");
-        CardTextGenerator.instance.WriteOnCall(D_simplemultiplies[Random.Range(0, D_simplemultiplies.Count)]);
+       CardTextGenerator.instance.WriteOnCall(D_simplemultiplies[Random.Range(0, D_simplemultiplies.Count)]);
     }
     public void PlayEcuations()
     {
